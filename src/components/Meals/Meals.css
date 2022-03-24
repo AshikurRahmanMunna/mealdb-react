@@ -1,0 +1,14 @@
+.all {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.meals {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.meals img {
+    width: 100%;
+}
+.side {
+    background-color: goldenrod;
+}
